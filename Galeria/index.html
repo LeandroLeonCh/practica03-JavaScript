@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+    <head>
+        
+        <script src="JavaScript/galeria.js"></script>
+        
+        <meta charset="utf-8"/>
+        <style>
+            body{
+                margin: 30px 200px;
+                align-self: center;  
+            }
+            img{
+                width: 500px;
+            }
+            table{
+                width: 400px;
+            }
+            button{
+                width: 70px;
+                height: 25px;
+                text-align: center;
+
+            }
+        
+        </style>
+    </head>
+    <body onload="inicio();" >
+        <section id="imagen" >
+            
+        </section>
+        <table>
+            <tr>
+                <td><input type="button" id="btn_anterior" onclick="anterior();" value="Anterior"/></td>
+                <td><button id="btn_inicio" onclick="inicio();">Inicio</button></td>
+                <td><input type="button" id="btn_siguiente" onclick="siguiente();" value="Siguiente"/></td>
+            </tr>
+        </table>
+    </body>
+</html>
+        

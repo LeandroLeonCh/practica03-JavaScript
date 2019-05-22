@@ -1,0 +1,114 @@
+
+body{
+    background-image: url('../images/imageForm.jpg');
+    background-size: 100%;
+}
+
+
+#divForm{
+    width: 800px;
+    height: 750px;
+    background: #CCC;
+    filter: alpha(opacity=60);
+    /* IE */
+    -moz-opacity: 0.6;
+    /* Mozilla */
+    opacity: 0.6;
+    color: rgb(8, 8, 8);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+#divForm h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    
+}
+#divForm label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+#divForm input {
+    width: 35%;
+    margin-bottom: 15px;
+}
+
+#divForm input[type="text"], 
+#divForm input[type="password"],
+#divForm input[type='email']{
+        height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+
+}
+#divForm button[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: rgb(11, 216, 121) ;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    box-shadow: 6px 6px 6px;
+}
+
+#emaill{
+    position: absolute;
+    left: 400px;
+    top: 125px;
+}
+#email{
+    position: absolute;
+    left: 400px;
+    top: 140px;
+}
+
+#psswl{
+    position: absolute;
+    left: 400px;
+    top: 225px;
+}
+
+#pssw{
+    position: absolute;
+    left: 400px;
+    top: 240px;
+}
+
+
+
+a{
+    background-color: rgb(133, 220, 20);
+    border: outset;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 500px;
+}
+
+
+#mensajeMail{
+    position: absolute;
+    left: 400px;
+    top: 175px;
+}
+
+#mensajeCotra{
+    position: absolute;
+    left: 400px;
+    top: 220px;
+}
+
+.error{
+    color: red;
+}
